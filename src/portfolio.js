@@ -14,7 +14,7 @@ const greeting = {
   // subTitle:
   //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
   subTitle:
-    "Versatile Front-end developer with years of experience developing and managing responsive websites and interactive features that drive business growth.",
+    "Versatile Software developer with years of experience developing and managing responsive websites and interactive features that drive business growth.",
   resumeLink:
     "https://docs.google.com/document/d/1KfOCj1uVfyj937I5IVeWs9QRJOMke0tdEtqiJhtvWA0",
 };

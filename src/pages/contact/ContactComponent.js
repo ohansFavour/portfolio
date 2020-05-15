@@ -20,21 +20,21 @@ const blogSection = {
 const addressSection = {
   title: "Address",
   subtitle:
-    "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    "2 Oladele Ojogbede street Lekki, Lagos, 105102, Nigeria.",
   avatar_image_path: "address_image.svg",
-  location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+  location_map_link: "https://goo.gl/maps/9KYTku6gPmFCbJjc7",
 };
 
 const phoneSection = {
   title: "Phone Number",
-  subtitle: "+91 8320758513",
+  subtitle: "+2348068239121",
 };
 
 const ContactData = {
   title: "Contact Me",
   profile_image_path: "Favour Ohanekwu.jpg",
   description:
-    "I am available for jobs and projects. Feel free to contact me on any of my social media accounts or Phone Number +2348068239121.",
+    "I am available for jobs and projects. Feel free to contact me on any of my social media accounts.",
 };
 
 class Contact extends Component {
@@ -67,7 +67,7 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
-          <Fade bottom duration={1000} distance="40px">
+          {/* <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text">{blogSection["title"]}</h1>
@@ -89,7 +89,7 @@ class Contact extends Component {
                 />
               </div>
             </div>
-          </Fade>
+          </Fade> */}
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">

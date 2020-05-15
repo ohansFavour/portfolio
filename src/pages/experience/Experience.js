@@ -51,7 +51,7 @@ const experience = {
           duration: "May 2017 - Sept 2017",
           location: "Ile-ife, Osun state, Nigeria",
           description:
-            "I have worked on a home automation project that switches off and on different home appliances based on time set by the user.  Was also involved in the simulation of 4G LTE systems for cellular communication using MatLab.",
+            "I have worked on a home automation project that switches off and on different home appliances based on time set by the user.  I was also involved in the simulation of 4G LTE systems for cellular communication using MatLab.",
           color: "#ee3c26",
         },
         // {
