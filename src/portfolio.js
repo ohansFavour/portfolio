@@ -272,9 +272,9 @@ const degrees = {
       alt_name: "Obafemi Awolowo University",
       duration: "2014 - 2019",
       descriptions: [
-        "⚡ First Class Honors",
+        "⚡  First Class Honors (4.88/5.0)",
         "⚡ Completed courses on Data Structures, Algorithms and Full Stack Development.",
-        "⚡ Awardee of the Total E & P Scholarship. Received an award from the Society of Petroleum Engineers, Nigeria for academic excellence.",
+        "⚡ Awardee of the Total E & P Scholarship. ",
       ],
       website_link: "https://oauife.edu.ng/",
     },

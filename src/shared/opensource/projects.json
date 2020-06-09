@@ -14,6 +14,19 @@
       ]
     },
     {
+      "id": "KDPwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Advertise",
+      "createdAt": "2020-04-06T16:26:54Z",
+      "url": "https://www.schnellads.online/",
+      "description": "Mobile and offline advertisement platform.",
+      "isFork": false,
+      "languages": [
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "React", "iconifyClass": "simple-icons:react" }
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
       "name": "Crown Clothing",
       "createdAt": "2019-11-03T05:00:56Z",
