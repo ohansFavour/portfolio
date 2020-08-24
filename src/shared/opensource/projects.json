@@ -1,6 +1,19 @@
 {
   "data": [
     {
+      "id": "KDPwOlJlcG9zaXRvcnkyNDU0NjcyN99zQ=",
+      "name": "Medicity",
+      "createdAt": "2020-06-06T16:26:54Z",
+      "url": "https://master.d278zxaxty7gb4.amplifyapp.com/",
+      "description": "Online AI disease detection system",
+      "isFork": false,
+      "languages": [
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "React", "iconifyClass": "simple-icons:react" }
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Schnell Stack",
       "createdAt": "2020-01-06T16:26:54Z",
@@ -18,7 +31,7 @@
       "name": "Advertise",
       "createdAt": "2020-04-06T16:26:54Z",
       "url": "https://www.schnellads.online/",
-      "description": "Mobile and offline advertisement platform.",
+      "description": "Mobile and offline advertisement platform (Built to validate a startup idea).",
       "isFork": false,
       "languages": [
         { "name": "HTML", "iconifyClass": "logos-html-5" },

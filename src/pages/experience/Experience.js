@@ -21,7 +21,7 @@ const experience = {
           company: "Schnell Innovations",
           company_url: "https://www.schnell.network/",
           logo_path: "logo.jpg",
-          duration: "March 2019 - Present",
+          duration: "February 2019 - April 2020",
           location: "Ijaiye, Lagos state, Nigeria",
           description:
             "I built the Front-End of a LoRaWAN Network Server, for Machine to Machine communication using several technologies such as React, Redux and Mqtt.",
@@ -32,7 +32,7 @@ const experience = {
           company: "BOW Dynamic System Ltd.",
           company_url: "https://www.bowdynamic.net/",
           logo_path: "bow.png",
-          duration: "",
+          duration: "June 2017 - February 2019",
           location: "Ajah, Lagos state, Nigeria",
           description:
             "BOW Dynamic System Ltd is a cutting-edge technology company that offers Internet Protocol (IP) based Technical Security Solutions and ICT (Information and Communication Technology). ",

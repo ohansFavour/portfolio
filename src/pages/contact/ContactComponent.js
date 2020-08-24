@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -19,8 +20,7 @@ const blogSection = {
 
 const addressSection = {
   title: "Address",
-  subtitle:
-    "2 Oladele Ojogbede street Lekki, Lagos, 105102, Nigeria.",
+  subtitle: "2 Oladele Ojogbede street Lekki, Lagos, 105102, Nigeria.",
   avatar_image_path: "address_image.svg",
   location_map_link: "https://goo.gl/maps/9KYTku6gPmFCbJjc7",
 };
@@ -61,8 +61,16 @@ class Contact extends Component {
                   <Button
                     text="See My Resume"
                     newTab={true}
-                    href={greeting.resumeLink}
-                  />
+                    // href={greeting.resumeLink}
+                  >
+                    <Link
+                      to="/public/Favour's Resume.pdf"
+                      target="_blank"
+                      download
+                    >
+                      Download
+                    </Link>
+                  </Button>
                 </div>
               </div>
             </div>

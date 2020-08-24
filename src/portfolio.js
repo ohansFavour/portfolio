@@ -143,7 +143,7 @@ const skills = {
       ],
     },
     {
-      title: "Back-End Development",
+      title: "Back-End Development (Beginner)",
       imagePath: "backend dev.svg",
       skills: [
         "⚡ Experience working with Nodejs and Express",
@@ -270,9 +270,9 @@ const degrees = {
       subtitle: "BSc. in Electronic and Electrical Engineering",
       logo_path: "obafemi awolowo.jpg",
       alt_name: "Obafemi Awolowo University",
-      duration: "2014 - 2019",
+      duration: "",
       descriptions: [
-        "⚡  First Class Honors (4.88/5.0)",
+        "⚡  First Class Honors (4.89/5.0)",
         "⚡ Completed courses on Data Structures, Algorithms and Full Stack Development.",
         "⚡ Awardee of the Total E & P Scholarship. ",
       ],
