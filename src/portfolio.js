@@ -143,7 +143,7 @@ const skills = {
       ],
     },
     {
-      title: "Back-End Development (Beginner)",
+      title: "Back-End Development (Intermediate)",
       imagePath: "backend dev.svg",
       skills: [
         "⚡ Experience working with Nodejs and Express",
@@ -193,7 +193,7 @@ const skills = {
       title: "Search Engine Optimization",
       imagePath: "search engine optimization.svg",
       skills: [
-        "⚡ Writing powerful calls-to-action to convert visitors",
+        "⚡ Writing powerful call-to-actions to convert visitors",
         "⚡ Analyzing keywords and SEO techniques used by competitors",
         "⚡ Identifying powerful keywords to drive the most valuable trafficAnalyzing keywords and SEO techniques used by competitors",
         "⚡ Keeping updated on both white hat and black hat SEO strategies to avoid stay within search engine guidelines",

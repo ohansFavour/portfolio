@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
+import Resume from "../../assests/Favour.pdf";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 
@@ -59,18 +60,12 @@ class Contact extends Component {
                 <SocialMedia />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text="Download Resume"
                     newTab={true}
-                    // href={greeting.resumeLink}
-                  >
-                    <Link
-                      to="/public/Favour's Resume.pdf"
-                      target="_blank"
-                      download
-                    >
-                      Download
-                    </Link>
-                  </Button>
+                    download={true}
+                    Data={Resume}
+                    filename="Favour Ohanekwu's Resume"
+                  ></Button>
                 </div>
               </div>
             </div>
