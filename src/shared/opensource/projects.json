@@ -1,63 +1,50 @@
 {
   "data": [
     {
-      "id": "KDPwOlJlcG9zaXRvcnkyNDU0NjcyN99zQ=",
-      "name": "Medicity",
-      "createdAt": "2020-06-06T16:26:54Z",
-      "url": "https://master.d278zxaxty7gb4.amplifyapp.com/",
-      "description": "Online AI disease detection system",
+      "id": "MDEwOlJlcG9zaXRvcjdjdjnkyNDU0NjcyNzQ=",
+      "name": "JEE SectorHub",
+      "createdAt": "2020-01-06T16:26:54Z",
+      "url": "http://sectorhub.jee.africa/",
+      "description": "Regulatory portal for Jackson Etti and Edu law firm.",
       "isFork": false,
       "languages": [
-        { "name": "HTML", "iconifyClass": "logos-html-5" },
         { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
         { "name": "React", "iconifyClass": "simple-icons:react" }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Schnell Stack",
+      "id": "MDEwOlJlcG9zaXNDU0NjcyNzQ=",
+      "name": "Afridevs",
       "createdAt": "2020-01-06T16:26:54Z",
-      "url": "https://www.schnell.network/",
-      "description": "LoRaWAN Network for M2M Communication.",
+      "url": "https://afridevstudio.com/",
+      "description": "Afridevs studio company's website .",
       "isFork": false,
       "languages": [
-        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+        { "name": "React", "iconifyClass": "simple-icons:react" }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnjhvkyNDU0NjcyNzQ=",
+      "name": "Learn Work",
+      "createdAt": "2020-01-06T16:26:54Z",
+      "url": "https://www.learnworknow.com/",
+      "description": "Online platform for vocational education",
+      "isFork": false,
+      "languages": [
+        { "name": "React", "iconifyClass": "simple-icons:react" },
         { "name": "CSS", "iconifyClass": "logos-css-3" },
         { "name": "JavaScript", "iconifyClass": "logos-javascript" }
       ]
     },
     {
-      "id": "KDPwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Advertise",
-      "createdAt": "2020-04-06T16:26:54Z",
-      "url": "https://www.schnellads.online/",
-      "description": "Mobile and offline advertisement platform (Built to validate a startup idea).",
-      "isFork": false,
-      "languages": [
-        { "name": "HTML", "iconifyClass": "logos-html-5" },
-        { "name": "CSS", "iconifyClass": "logos-css-3" },
-        { "name": "React", "iconifyClass": "simple-icons:react" }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
-      "name": "Crown Clothing",
-      "createdAt": "2019-11-03T05:00:56Z",
-      "url": "https://github.com/ohansFavour/crown-clothing",
-      "description": "E-commerce Web Application.",
-      "isFork": false,
-      "languages": [
-        { "name": "React", "iconifyClass": "simple-icons:react" },
-        { "name": "Redux", "iconifyClass": "simple-icons:redux" },
-        { "name": "Firebase", "iconifyClass": "simple-icons:firebase" }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
-      "name": "Movies-Recommender",
-      "createdAt": "2019-08-13T13:13:00Z",
-      "url": "https://github.com/ohansFavour/Movies-recommender",
-      "description": "This open source project recommends movies based on their ratings",
+      "id": "KDPwOlJlcG9zaXRvcnkyNDU0NjcyN99zQ=",
+      "name": "Iyin Raphael",
+      "createdAt": "2020-06-06T16:26:54Z",
+      "url": "https://master.d278zxaxty7gb4.amplifyapp.com/",
+      "description": "iOS Developer portfolio",
       "isFork": false,
       "languages": [
         { "name": "HTML", "iconifyClass": "logos-html-5" },

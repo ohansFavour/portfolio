@@ -1,41 +1,29 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
-import Resume from "../../assests/Favour.pdf";
-import { Fade } from "react-reveal";
-import "./ContactComponent.css";
-
-const blogSection = {
-  /* Blogs Section */
-
-  title: "Blogs",
-  subtitle:
-    "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-  link: "https://ashutoshhathidara.wordpress.com",
-  avatar_image_path: "blogs_image.svg",
-};
+import React, { Component } from 'react';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import SocialMedia from '../../components/socialMedia/SocialMedia';
+import Button from '../../components/button/Button';
+import Resume from '../../assests/favour_ohanekwu_resume.pdf';
+import { Fade } from 'react-reveal';
+import './ContactComponent.css';
 
 const addressSection = {
-  title: "Address",
-  subtitle: "2 Oladele Ojogbede street Lekki, Lagos, 105102, Nigeria.",
-  avatar_image_path: "address_image.svg",
-  location_map_link: "https://goo.gl/maps/9KYTku6gPmFCbJjc7",
+  title: 'Address',
+  subtitle: '2 Oladele Ojogbede street Lekki, Lagos, 105102, Nigeria.',
+  avatar_image_path: 'address_image.svg',
+  location_map_link: 'https://goo.gl/maps/9KYTku6gPmFCbJjc7',
 };
 
 const phoneSection = {
-  title: "Phone Number",
-  subtitle: "+2348068239121",
+  title: 'Phone Number',
+  subtitle: '+2348068239121',
 };
 
 const ContactData = {
-  title: "Contact Me",
-  profile_image_path: "Favour Ohanekwu.jpg",
+  title: 'Contact Me',
+  profile_image_path: 'Favour Ohanekwu.jpg',
   description:
-    "I am available for jobs and projects. Feel free to contact me on any of my social media accounts.",
+    'I am available for jobs and projects. Feel free to contact me on any of my social media accounts.',
 };
 
 class Contact extends Component {
@@ -46,16 +34,17 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              <div className="contact-heading-img-div">
+              <div className="contact-heading-img-div ">
                 <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  src={require(`../../assests/images/${ContactData['profile_image_path']}`)}
                   alt=""
+                  className="profile-image"
                 />
               </div>
               <div className="contact-heading-text-div">
-                <h1 className="contact-heading-text">{ContactData["title"]}</h1>
+                <h1 className="contact-heading-text">{ContactData['title']}</h1>
                 <p className="contact-header-detail-text subTitle">
-                  {ContactData["description"]}
+                  {ContactData['description']}
                 </p>
                 <SocialMedia />
                 <div className="resume-btn-div">
@@ -97,22 +86,22 @@ class Contact extends Component {
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
+                  src={require(`../../assests/images/${addressSection['avatar_image_path']}`)}
                   alt=""
                 />
               </div>
               <div className="address-heading-text-div">
                 <h1 className="address-heading-text">
-                  {addressSection["title"]}
+                  {addressSection['title']}
                 </h1>
                 <p className="contact-header-detail-text subTitle">
-                  {addressSection["subtitle"]}
+                  {addressSection['subtitle']}
                 </p>
                 <h1 className="address-heading-text">
-                  {phoneSection["title"]}
+                  {phoneSection['title']}
                 </h1>
                 <p className="contact-header-detail-text subTitle">
-                  {phoneSection["subtitle"]}
+                  {phoneSection['subtitle']}
                 </p>
                 <div className="address-btn-div">
                   <Button

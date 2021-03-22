@@ -1,58 +1,69 @@
-import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
+import React, { Component } from 'react';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import ExperienceAccordion from '../../containers/experienceAccordion/ExperienceAccordion.js';
 // import experience from '../../shared/experience_data.json';
-import "./Experience.css";
-import { Fade } from "react-reveal";
+import './Experience.css';
+import { Fade } from 'react-reveal';
 
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: 'Experience',
+  subtitle: 'Work, Internship and Volunteership',
   description:
-    "I have worked with many evolving startups as Software Developer, Designer and Software Architect. I have spent the last three years developing my skills as a software developer while delivering efficient codes and driving business growth.",
-  header_image_path: "experience.svg",
+    'I have worked with many evolving startups as a Front-end Developer, Designer and Software Architect. I have spent the last three years developing my skills as a software developer while delivering efficient code and driving business growth.',
+  header_image_path: 'experience.svg',
   sections: [
     {
-      title: "Work",
+      title: 'Work',
       experiences: [
         {
-          title: "Front-End Developer",
-          company: "Schnell Innovations",
-          company_url: "https://www.schnell.network/",
-          logo_path: "logo.jpg",
-          duration: "February 2019 - April 2020",
-          location: "Ijaiye, Lagos state, Nigeria",
+          title: 'Front-End Developer',
+          company: 'Afridevs Studio',
+          company_url: 'https://www.afridevstudio.com/',
+          logo_path: 'Afridevs-logo.svg',
+          // duration: 'February 2019 - April 2020',
+          location: 'Concord, CA.',
           description:
-            "I built the Front-End of a LoRaWAN Network Server, for Machine to Machine communication using several technologies such as React, Redux and Mqtt.",
-          color: "#9b1578",
+            'Afridevs Studio is a software development agency with a team of professional engineers leveraging best practices in tech to develop cool and functional applications for clients.',
+          color: '#9b1578',
         },
         {
-          title: "Front-End Developer",
-          company: "BOW Dynamic System Ltd.",
-          company_url: "https://www.bowdynamic.net/",
-          logo_path: "bow.png",
-          duration: "June 2017 - February 2019",
-          location: "Ajah, Lagos state, Nigeria",
+          title: 'Front-End Developer',
+          company: 'Schnell Innovations',
+          company_url: '',
+          logo_path: 'logo.jpg',
+          // duration: 'February 2019 - April 2020',
+          location: 'Ijaiye, Lagos state, Nigeria',
           description:
-            "BOW Dynamic System Ltd is a cutting-edge technology company that offers Internet Protocol (IP) based Technical Security Solutions and ICT (Information and Communication Technology). ",
-          color: "#fc1f20",
+            'Schnell is a LoRaWAN Network Server for Machine to Machine communication using several technologies such as LoRa, React, Redux and Mqtt.',
+          color: '#9b1578',
+        },
+        {
+          title: 'Front-End Developer',
+          company: 'BOW Dynamic System Ltd.',
+          company_url: 'https://www.bowdynamic.net/',
+          logo_path: 'bow.png',
+          // duration: 'June 2017 - February 2019',
+          location: 'Ajah, Lagos state, Nigeria',
+          description:
+            'BOW Dynamic System Ltd is a cutting-edge technology company that offers Internet Protocol (IP) based Technical Security Solutions and ICT (Information and Communication Technology). ',
+          color: '#fc1f20',
         },
       ],
     },
     {
-      title: "Internships",
+      title: 'Internships',
       experiences: [
         {
-          title: "Telecommunication Researh Intern",
-          company: "Obafemi Awolowo University",
-          company_url: "http://oauife.edu.ng/",
-          logo_path: "obafemi awolowo.jpg",
-          duration: "May 2017 - Sept 2017",
-          location: "Ile-ife, Osun state, Nigeria",
+          title: 'Telecommunication Researh Intern',
+          company: 'Obafemi Awolowo University',
+          company_url: 'http://oauife.edu.ng/',
+          logo_path: 'obafemi awolowo.jpg',
+          // duration: 'May 2017 - Sept 2017',
+          location: 'Ile-ife, Osun state, Nigeria',
           description:
-            "I have worked on a home automation project that switches off and on different home appliances based on time set by the user.  I was also involved in the simulation of 4G LTE systems for cellular communication using MatLab.",
-          color: "#ee3c26",
+            'I worked on a home automation project that switches off and on different home appliances based on time set by the user.  I was also involved in the simulation of 4G LTE systems for cellular communication using MatLab.',
+          color: '#ee3c26',
         },
         // {
         //   title: "Data Science Intern",
@@ -142,23 +153,23 @@ class Experience extends Component {
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
                 <img
-                  src={require(`../../assests/images/${experience["header_image_path"]}`)}
+                  src={require(`../../assests/images/${experience['header_image_path']}`)}
                   alt=""
                 />
               </div>
               <div className="experience-heading-text-div">
                 <h1 className="experience-heading-text">{experience.title}</h1>
                 <h3 className="experience-heading-sub-text">
-                  {experience["subtitle"]}
+                  {experience['subtitle']}
                 </h3>
                 <p className="experience-header-detail-text subTitle">
-                  {experience["description"]}
+                  {experience['description']}
                 </p>
               </div>
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience["sections"]} />
+        <ExperienceAccordion sections={experience['sections']} />
         <Footer />
       </div>
     );
