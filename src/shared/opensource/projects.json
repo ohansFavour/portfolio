@@ -1,9 +1,35 @@
 {
   "data": [
     {
+      "id": "KDPwOlJlcG9zaXRvcnkyNDU0NjcyN99zQ=",
+      "name": "West Afriq",
+      "createdAt": "2021-02-06T16:26:54Z",
+      "url": "https://www.westafriq.com/",
+      "description": "Company website for westAfriq production limited",
+      "isFork": false,
+      "languages": [
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "React", "iconifyClass": "simple-icons:react" }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXNDU0NjcyNzQ=",
+      "name": "Al Alim",
+      "createdAt": "2020-12-16T16:26:54Z",
+      "url": "https://www.alalimdamshat.com/",
+      "description": "Single page website for a dropshipping company",
+      "isFork": false,
+      "languages": [
+        { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+        { "name": "React", "iconifyClass": "simple-icons:react" }
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcjdjdjnkyNDU0NjcyNzQ=",
       "name": "JEE SectorHub",
-      "createdAt": "2020-01-06T16:26:54Z",
+      "createdAt": "2020-09-06T16:26:54Z",
       "url": "http://sectorhub.jee.africa/",
       "description": "Regulatory portal for Jackson Etti and Edu law firm.",
       "isFork": false,
@@ -13,23 +39,11 @@
         { "name": "React", "iconifyClass": "simple-icons:react" }
       ]
     },
-    {
-      "id": "MDEwOlJlcG9zaXNDU0NjcyNzQ=",
-      "name": "Afridevs",
-      "createdAt": "2020-01-06T16:26:54Z",
-      "url": "https://afridevstudio.com/",
-      "description": "Afridevs studio company's website .",
-      "isFork": false,
-      "languages": [
-        { "name": "CSS", "iconifyClass": "logos-css-3" },
-        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
-        { "name": "React", "iconifyClass": "simple-icons:react" }
-      ]
-    },
+
     {
       "id": "MDEwOlJlcG9zaXRvcnjhvkyNDU0NjcyNzQ=",
       "name": "Learn Work",
-      "createdAt": "2020-01-06T16:26:54Z",
+      "createdAt": "2020-11-06T16:26:54Z",
       "url": "https://www.learnworknow.com/",
       "description": "Online platform for vocational education",
       "isFork": false,
@@ -37,19 +51,6 @@
         { "name": "React", "iconifyClass": "simple-icons:react" },
         { "name": "CSS", "iconifyClass": "logos-css-3" },
         { "name": "JavaScript", "iconifyClass": "logos-javascript" }
-      ]
-    },
-    {
-      "id": "KDPwOlJlcG9zaXRvcnkyNDU0NjcyN99zQ=",
-      "name": "Iyin Raphael",
-      "createdAt": "2020-06-06T16:26:54Z",
-      "url": "https://master.d278zxaxty7gb4.amplifyapp.com/",
-      "description": "iOS Developer portfolio",
-      "isFork": false,
-      "languages": [
-        { "name": "HTML", "iconifyClass": "logos-html-5" },
-        { "name": "CSS", "iconifyClass": "logos-css-3" },
-        { "name": "React", "iconifyClass": "simple-icons:react" }
       ]
     }
   ]
